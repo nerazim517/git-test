@@ -1,0 +1,2 @@
+git commit 後 可以用 git reset "版本號" + git stash 回復本地的內容到該版本(連被刪除的資料都可以拉回來，超強)
+git conflict發生後   用git pull --rebase origin master  先pull在push就好
