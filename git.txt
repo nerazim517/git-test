@@ -1,0 +1,8 @@
+git commit 後可以用 git reset "版本號" + git stash 回復本地的內容到該版本(連被刪除的資料都可以拉回來，超強)
+
+git conflict發生後   用git pull --rebase origin master  先pull在push就好
+
+用git也能刪除github上面的資料，方法如下:
+1.git rm -r --cached FOLDER_NAME：在 cache 中指定你要刪除的資料夾名稱
+2.git commit -m "YOUR_COMMENT"：提交 commit 訊息
+3.git push -u origin main：推上倉庫
